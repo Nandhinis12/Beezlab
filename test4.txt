@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include <stdlib.h>
+int main()
+{
+   int starting_Range,ending_Range,count=0;
+   scanf("%d %d",&starting_Range,&ending_Range);
+   for(int i=starting_Range;i<=ending_Range;i++){
+       int num=i;
+       while(num>0){
+           if(num%10==1){
+               count++;
+           }
+       num/=10;
+       }
+   }
+   printf("%d",count);
+   
+}

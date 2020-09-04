@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num;
+    scanf("%d",&num);
+    int q_English,q_Tamil,q_Math,q_Science,q_Social,h_English,h_Tamil,h_Math,h_Science,h_Social;
+   for(int i=1;i<=num;i++){
+      scanf("%d",&q_English);
+      scanf("%d",&q_Tamil);
+      scanf("%d",&q_Math);
+      scanf("%d",&q_Science);
+      scanf("%d",&q_Social);
+      scanf("%d",&h_English);
+      scanf("%d",&h_Tamil);
+      scanf("%d",&h_Math);
+      scanf("%d",&h_Science);
+      scanf("%d",&h_Social);
+      printf("Averge of %d student\n",i);
+      printf("English- %d\n",(q_English+h_English)/2);
+      printf("Tamil -   %d\n",(q_Tamil+h_Tamil)/2); 
+      printf("Math  -    %d\n",(q_Math+h_Math)/2);
+      printf("Scence-  %d\n",(q_Science+h_Science)/2);
+      printf("Social-   %d",(q_Social+h_Social)/2);
+   }
+
+}

@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int arr[]={1,2,4,6,3,7,8};
+    int a=1,f=0;
+    for(int i=0;i<8;i++){
+        for(int j=0;j<8;j++){
+            if(arr[j]==a){
+                f=1;}}
+                if(f==0){
+                    printf("%d",a);
+                }
+                a++;
+                f=0;}
+               
+}

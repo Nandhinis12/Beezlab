@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char str[50]="Perks for Business by adapting to Artificial intelligence";
+    printf("Number of Characters %d",strlen(str));
+    
+
+
+}
